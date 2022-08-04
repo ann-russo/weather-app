@@ -14,8 +14,13 @@ body {
     flex-grow: 1;
 }
 
-.main-content a {
-    color: #333333;
+#app-description a {
+    text-decoration: none;
+    color: cornflowerblue;
+}
+
+#app-description a:hover {
+    text-decoration: underline;
 }
 
 footer {
