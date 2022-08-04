@@ -69,7 +69,7 @@ app.get('/products', (req, res) => {
 
 app.get('/about', (req, res) => {
     res.render('about', {
-        title: 'About Me',
+        title: 'About',
         name: 'Anastasia Urusova'
     })
 })
